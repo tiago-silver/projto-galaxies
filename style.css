@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    background-color: #1e1e1e;
+    font-family: 'Mulish',sans-serif;
+    font-size: 1.6rem;
+}
+header div{
+    margin-bottom:2.3rem;
+
+}
+header h1{
+    color: #02799D;
+    font-size:3rem  ;
+    margin-bottom: 1.4rem;
+    font-weight: bold;
+}
+header p{
+    color: #E1E1E6;
+    font-size:1.8rem ;
+    font-weight: bold;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem 5rem;
+
+ 
+    
+
+}
+main > div{
+   
+    max-width: 30rem;
+    background-color: #323238;
+    border: 2px solid #202024;
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+main div div{
+    padding: 2.4rem 3.2rem 3.2rem;
+}
+main > div > img{
+    width: 100%;
+   
+}
+main h2{
+    color: #E1E1E6;
+    font-size: 2.5rem;
+}
+main p{
+    color: #C4C4CC;
+    font-size: 1.6rem;
+    font-weight: 600 ;
+    margin-top: 2.4rem;
+
+   
+}
+.page{
+   
+   margin-top: 5.3rem;
+   display: grid;
+   justify-content: center;
+
+}
+@media(min-width:765px){
+    header div{
+        margin-bottom: 4.5rem;
+    }
+    main{
+        grid-template-columns: repeat(2, 34rem);
+       
+    
+    }
+    header h1{
+        font-size: 4.5rem;
+    }
+    header p{
+        font-size: 2.5rem;
+    }
+    main h2{
+        font-size:3rem ;
+    }
+    main p{
+        font-size:1.8rem ;
+    }
+}
+@media(min-width:1024px){
+    header div{
+        margin-bottom: 5.5rem;
+    }
+    main{
+        grid-template-columns: repeat(3, 36rem);
+        justify-content: center;
+       
+    }
+    header h1{
+        font-size: 5.8rem;
+    }
+    header p{
+        font-size: 3.2rem;
+    }
+    main h2{
+        font-size:3.5rem ;
+    }
+    main p{
+        font-size:2.2rem ;
+    }
+   
+    .page{
+        padding: 7.3rem 10rem;
+    }
+}
